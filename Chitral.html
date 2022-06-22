@@ -1,0 +1,1741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Chitral</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Health medical template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/Dropdown.css">
+
+<style>
+
+
+	.flip-card {
+	  background-color: transparent;
+	  width: 265px;
+	  height: 265px;
+	  perspective: 1000px;
+	}
+	
+	.flip-card-inner {
+	  position: relative;
+	  
+	  width: 100%;
+	  height: 100%;
+	  text-align: center;
+	  transition: transform 0.6s;
+	  transform-style: preserve-3d;
+	  box-shadow: 0 4px 8px 0 rgba(216, 214, 214, 0.2);
+	}
+	
+	.flip-card:hover .flip-card-inner {
+	  transform: rotateY(180deg);
+	}
+	
+	.flip-card-front, .flip-card-back {
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  -webkit-backface-visibility: hidden;
+	  backface-visibility: hidden;
+	}
+	
+	.flip-card-front {
+	  background-color: #bbb;
+	  color: black;
+	}
+	
+	.flip-card-back {
+	  background-color:
+	  #f4f6f8;
+	
+	  color: rgb(12, 12, 12);
+	  transform: rotateY(180deg);
+	}
+	</style>
+</head>
+<body style="font-family: 'Montserrat', sans-serif !important;">
+
+<div class="super_container">
+
+	<!-- Menu -->
+
+	<div class="menu trans_500">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="menu_close_container"><div class="menu_close"></div></div>
+			<form action="#" class="menu_search_form">
+				<input type="text" class="menu_search_input" placeholder="Search" required="required">
+				<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+			</form>
+			<ul>
+				<li class="menu_item"><a href="index.php">Home</a></li>
+				<li class="menu_item"><a href="AboutUs.html">About us</a></li>
+				<li class="menu_item"><a href="#">Services</a></li>
+				<li class="menu_item"><a href="news.html">News</a></li>
+				<li class="menu_item"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="menu_social">
+			<ul>
+				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="background_image" style="background-image:url(cities/Chitral/Gallery/32.jpg)"></div>
+
+		<!-- Header -->
+
+		<header class="header" id="header">
+			<div>
+				<div class="header_top">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
+									<div class="logo">
+										<a href="#"><img src="images/map2.png" style="width: 60px; height: 60px; margin-bottom: 10px; " alt=""> tourado</a>	
+									</div>
+									<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
+										
+										<div class="header_top_phone">
+											<i class="fa fa-phone" aria-hidden="true"></i>
+											<span>+92 321 1256778</span>
+										</div>
+									</div>
+									<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header_nav" id="header_nav_pin">
+					<div class="header_nav_inner">
+						<div class="header_nav_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+											<nav class="main_nav">
+												
+													<ul class="d-flex flex-row align-items-center justify-content-start">
+														<li><a href="index.php">Home</a></li>
+														<li><a href="customize.html">Customize Tour</a></li>
+														<li ><a href="Abbottabad.html">Abbottabad</a></li>
+														<li class="active"><a href="Chitral.html">Chitral</a></li>
+														<li><a href="NaranKaghan.html">Naran Kaghan</a></li>
+														<li><a href="Mansehra.html">Mansehra</a></li>
+														<li><a href="Mardan.html">Mardan</a></li>
+														<li><a href="NathiaGali.html">Nathia Gali</a></li>
+														<li><a href="Swat.html">Swat</a></li>
+														<li><a href="Peshawar.html">Peshawar</a></li>
+													</ul>
+												
+											</nav>
+
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</header>
+
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title" style="color: white;"></div>
+							<div class="home_text"></div>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br><br><br><br><br>
+
+							<div class="button info_button"><a href="ChitralGallery.html"><span>See more</span><span>See more</span></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+
+	<!-- CTA -->
+
+	<div class="cta">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/gray.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="cta_container d-flex flex-xl-row flex-column align-items-xl-start align-items-center justify-content-xl-start justify-content-center">
+						<div class="cta_content text-xl-left text-center">
+							<div class="cta_title" style="color: black;">Chitral-  Chitrāl, Chitrār, or Qāshqār</div>
+							<div class="cta_subtitle" style="color: black;  text-align: justify; text-justify:inter-word;">Chitral, also spelled Chitrāl, Chitrār, or Qāshqār, town, northern Khyber Pakhtunkhwa province, Pakistan. The town lies along the Kunar River (also known as the Chitral River) in a valley 2 miles (3 km) wide, at an elevation of about 4,900 feet (1,490 metres) above sea level. Chitral has a government woolen and sericulture centre, the fort of the former chieftain, a polo ground, and fruit gardens in the neighbourhood. It is accessible via several mountain passes and is linked with Peshawar by air. The local inhabitants were converted to Islam in the 11th century. A significant portion are members of the Ismāʿīlī sect. Prior to the 19th century, Chitral was a centre for slave trade in the region. Khowar, the language of the Khos, the dominant tribe in the locality, is the lingua franca. The Chitralis are fine horsemen and excel at the game of polo.</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+    <!-- Areas -->
+
+	<div class="departments">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">Top Areas of Chitral</div>
+					<div class="section_subtitle">Best areas to visit in Chitral</div>
+				</div>
+			</div>
+			<div class="row dept_row">
+				<div class="col">
+					<div class="dept_slider_container_outer">
+						<div class="dept_slider_container">
+
+							<!-- Slider -->
+							<div class="owl-carousel owl-theme dept_slider">
+								
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/a/Bumbruetn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Bumburet</b> is the largest valley of Kalasha Desh in Chitral District, KPK. The Bumburet valley joins the Rumbur valley at 35°44′20″N 71°43′40″E 1,640 metres, and then joins the Kunar Valley at the village of Ayun <br>
+												<b>Elevation:</b> 1,100 m
+												<b> Area: </b>180 km²<br>
+											
+												
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Bumbruet</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/a/ChitralFortn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;">The <b>Chitral Fort</b> is a fortification in Chitral town, Khyber Pakhtunkhwa, Pakistan. The fort is situated on the banks of the Chitral River.<br>
+												<b>Address:</b> Fort Rd, Chitrāl, Chitral, Khyber Pakhtunkhwa
+												
+											
+												
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Chitral Fort</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/a/ChitralGolNationalParkn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Chitral Gol National Park</b> is one of the National Parks of Pakistan. It is located in Chitral District besides Chitral river.<br>
+												<b>Address:</b> VMVR+WJH, Chitrāl, Chitral, KPK<br>
+												<b>Established: </b>1984<br>
+												<b>Area:</b> 77.5 km²
+												
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Gol National Park</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/a/ChitralMuseumn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Chitral Museum </b>is a museum located in Chitral District, Khyber Pakhtunkhwa, Pakistan, established on 8 July 2010.<br>
+												<b>Address:</b> RQXP+493, Chitrāl, Chitral, KPK<br>
+												<b>Phone: </b>(0943) 4148111984<br>
+												<b>Established:</b> 2010
+												
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Chitral Museum</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+
+                                <div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/a/ChitralPoloGroundn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br><br><br>
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Chitral Polo Ground </b>Playground in Chitral<br>
+												<b>Address:</b> RQWM+RPF, Chitrāl, Chitral, Khyber Pakhtunkhwa<br>
+												
+												
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Chitral Polo Ground</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+
+                                <div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/a/GolainJunglen.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br><br><br>
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Golain Jungle </b> is the National forest in Pakistan<br>
+												<b>Address:</b>  golain jungle, Chitrāl, Chitral, Khyber Pakhtunkhwa<br>
+												<b>Phone:</b> (0943) 414013
+												
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Golain Jungle</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+
+                                <div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/a/KalashaMuseum2n.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" >
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Kalasha Dur Museum</b> also known as Bamborate Museum located in Chitral District, Khyber Pakhtunkhwa, Pakistan. The Kalasha Dur Museum construction work started in 2001 and was completed in 2005.<br>
+												<b>Address: </b> MMWJ+WWR, Kalash, Brun, Chitral, KPK<br>
+												
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Kalasha Museum</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/a/LowDamikJinjerateDrosherChitralDistrictn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br><br><br>
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Damik Jinjerate Drosh Lower Chitral
+											</b><br>
+												<b>Address: </b> GQF4+WXC, Chitrāl, Chitral, Khyber Pakhtunkhwa<br>
+												
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Damik Jinjerate</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+                               
+                                <div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/a/MastujChitraln.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" >
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Mastuj </b> is a town and Tehsil of Upper Chitral District in Khyber-Pakhtunkhwa province of Pakistan. It is located at 36°17'0N 72°31'0E with an altitude of 2359 metres.<br>
+												<b>Elevation: </b>  2359m<br>
+												<b>Area:</b> 132 km²<br>
+												<b>Population: </b> 169,240 (2017)
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Mastuj Chitral</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+                                <div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/a/QaQlashtMeadowsn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" >
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>QaQlash Meadows </b> in KPK is a flat terrain located about 80 km north of Chitral town and approachable by 1.5 hours drive. In early spring, this plane transforms into a picnic resort with a carpet grassy and tiny yellow flowers.<br>
+												<b>Address: </b> 76JF+57J, Booni, Chitral<br>
+												
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Qaqlash Meadows</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+
+                                <div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/a/ShahiMasjidChitraln.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" >
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;">The <b>Shahi Mosque</b> is the main mosque in the town of Chitral, KPK, Pakistan. It is located on the bank of the Chitral river adjacent to the Chitral Fort. It was the principal mosque of Chitral at the time of the existence of the State of Chitral.<br>
+												<b>Address: </b> Jamia Masjid Rd, Chitrāl<br>
+												
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Shahi Masjid</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+
+
+
+
+                               
+
+
+                              
+
+							</div>
+							
+						</div>
+
+						<!-- Dept Slider Nav -->
+						<div class="dept_slider_nav"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<!-- Hotels -->
+
+	<div class="departments">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">Top Hotels of Chitral</div>
+					<div class="section_subtitle">Hospitality Offered To Every Laborer.</div>
+				</div>
+			</div>
+			<div class="row dept_row">
+				<div class="col">
+					<div class="dept_slider_container_outer">
+						<div class="dept_slider_container">
+
+							<!-- Slider -->
+							<div class="owl-carousel owl-theme dept_slider">
+								
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/h/AyunFortInnn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" >
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;">Exquisite yet affordable rooms, exceptional Pakistani and Local cuisine and beautiful gardens are what welcome our guests here at the Ayun Fort Inn.<br>
+												<b>Address: </b> Kalash Valley Road, Ayun, Chitral, KPK<br>
+												<b>Phone: </b>0344 5010602
+												<b>Per Night Stay: </b>12,690/-pkr for 2 Guests
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Ayun Fort Inn</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/h/ChitralInnn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><BR><BR>
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;">Room options at Chitral Inn include:
+
+
+												Twin/Double
+												Twin<br>
+												<b>Address: </b> RQRM+W36, Chitrāl, Chitral, KPK<br>
+												<b>Phone: </b>(0943) 413299
+												<b>Per Night Stay: </b>8816/-pkr for 2 Guests
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Chitral Inn</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/h/GahiratCastlen.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" >
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><B>Gahiret Castle</B> in Chitral has a garden and a terrace. Among the facilities of this property are a restaurant, a 24-hour front desk and room service<br>
+												<b>Address: </b>  MQ83+CXF, Gabhirat, Chitrāl, Chitral, KPK<br>
+												<b>Phone: </b>0345 9777414
+												<b>Per Night Stay: </b>11,464/- pkr for 1 Guest
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Gahirat Castle</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/h/HindukushHeightsn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" >
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;">A very serene and quiet location ideal for a family vacation. Just lying around reading a book ok or for watching the stars at night<br>
+												<b>Address: </b>  WR33+7C8, Chitrāl, Chitral, KPK<br>
+												<b>Phone: </b>(0943) 413151<br>
+
+												<b>Per Night Stay: </b>4000/- pkr
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Hindukush Heights</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+
+                                <div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/h/KalashContinentalHotelResortn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" >
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Kalash Continental Hotel & Resort</b> is located in Chitral. Featuring room service, this property also welcomes guests with a restaurant and a terrace.<br>
+												<b>Address: </b>  Bamboret Valley Road, Kalash, Chitrāl, Chitral, KPK<br>
+												<b>Phone: </b>0344 9777176<br>
+
+												<b>Per Night Stay: </b>4500/- pkr
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Kalash Continental</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+
+                                <div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/h/RoomyHindukushSaraiChitraln.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" >
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Roomy Hindukush Sarai in Chitral</b> features 3-star accommodations with a terrace. Featuring a restaurant, this 3-star hotel has air-conditioned rooms<br>
+												<b>Address: </b>   RQPP+RF2, Chitrāl, Chitral, KPK<br>
+												<b>Phone: </b>0311 1444100<br>
+
+												<b>Per Night Stay: </b>3500/- pkr
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Roomy Hindukush</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+
+
+                               
+
+
+                               
+
+							</div>
+							
+						</div>
+
+						<!-- Dept Slider Nav -->
+						<div class="dept_slider_nav"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+      <!-- Restuarants -->
+
+	<div class="departments">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">Top Restuarants of Chitral</div>
+					<div class="section_subtitle">Best restaurants to enjoy food</div>
+				</div>
+			</div>
+			<div class="row dept_row">
+				<div class="col">
+					<div class="dept_slider_container_outer">
+						<div class="dept_slider_container">
+
+							<!-- Slider -->
+							<div class="owl-carousel owl-theme dept_slider">
+								
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/r/ChitralGuestHouseZowaloRestaurantn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" >
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Chitral Guest House and Zowalo Restaurant </b>has a garden and a terrace. Among the facilities of this property are a restaurant, free shuttle service and a 24-hour front desk, along with free WiFi.<br>
+												<b>Address: </b>Denin, KPK، Denin, Chitrāl, Chitral<br>
+												<b>Phone: </b>(0943) 412888<br>
+
+											
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Guest House Zowalo</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/r/FokkarFriendshipRestaurantChitraln.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Fokker Friendship Restaurant Chitral</b> is situated next to Chitral Airport and is famous for the PIA Fokker plane. This is one of the best restaurants in Chitral.<br>
+												<b>Address: </b> Main Garam Chashma Rd, Singoor, Chitrāl, Chitral, KPK<br>
+												<b>Phone: </b>0344 9700800<br>
+
+											
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Fokkar Friednship</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/r/GumbasCafen.jpeg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Gumbas Café</b> is a modern and decent cafe setup aims to provide best quality fast food services in the heart of Chitral city<br>
+												<b>Services: </b>Dine-in · Takeaway<br>
+												<b>Address: </b>near Chitral Fort, Lower, Chitrāl, Chitral, KPK 17200<br>
+												<b>Phone: </b>0324 9862719<br>
+
+											
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Gumbas Café</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/r/JansFoodCornern.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br><br>
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Jan's Food Corner</b><br>
+												<b>Services: </b>Dine-in · Takeaway<br>
+												<b>Address: </b>RQXP+7GJ, Chitrāl, Chitral, Khyber Pakhtunkhwa<br>
+												<b>Phone: </b>0333 9337146<br>
+
+											
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">Jans Food Corner</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+
+                                <!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Chitral/r/PTDCHotelBumbruetn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" >
+                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>PTDC Motel Bamboret</b> is Apricot Tours' hotel partner in Bumburet. Book your tour through Apricot Tours to get special discounts.<br>
+												
+												<b>Address: </b> Bamboret Valley Road, Kalash, Brun, Chitral, Khyber Pakhtunkhwa<br>
+												<b>Phone: </b>0333 9337146<br>
+
+											
+											</p> 
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+									<div class="dept_content">
+										<div class="dept_title">PTDC Motel Bamboret</div>
+										<div style="margin: 2px 0;">
+												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>
+										
+									</div>
+								</div>
+
+
+
+
+
+                               
+
+
+                              
+
+							</div>
+							
+						</div>
+
+						<!-- Dept Slider Nav -->
+						<div class="dept_slider_nav"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	   <!-- Hospitals -->
+
+	   <div class="departments">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">Hospitals of Chitral</div>
+					<div class="section_subtitle">Visit in case of Emergency</div>
+				</div>
+			</div>
+			<div class="row dept_row">
+				<div class="col">
+					<div class="dept_slider_container_outer">
+						<div class="dept_slider_container">
+
+							<!-- Slider -->
+							<div class="owl-carousel owl-theme dept_slider">
+								
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="cities/Chitral/hospitals/AmaanHospitalMaternityHomen.jpg" alt=""></div>
+									<div class="dept_content">
+										<div class="dept_title">Amaan Hospital</div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="cities/Chitral/hospitals/ChitralScout2n.jpg" alt=""></div>
+									<div class="dept_content">
+										<div class="dept_title">Chitral Scout</div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="cities/Chitral/hospitals/DistrictHeadquarterHospitaln.jpg" alt=""></div>
+									<div class="dept_content">
+										<div class="dept_title">DHQ Hospital
+                                        </div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="cities/Chitral/hospitals/ALKhidmatHospitalChitral2.jpg" alt=""></div>
+									<div class="dept_content">
+										<div class="dept_title">Al-Khidmat Hospital</div> 
+										
+									</div>
+								</div>
+
+
+                                
+
+                
+                               
+
+
+                              
+
+							</div>
+							
+						</div>
+
+						<!-- Dept Slider Nav -->
+						<div class="dept_slider_nav"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- Contact -->
+
+<div class="contact">
+	<div class="container">
+		<div class="row">
+
+		
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<!-- Customize Trip -->
+			<div class="col-lg-4 contact_col" >
+				<div class="info_form_container" style="width: 240%;">
+					<div class="info_form_title" style="text-align: center;">Customize Trip</div><br><br>
+					<div class="info_form_title" style="font-size: 16px;">Fill Details</div>
+					<form action="lhrcustomize.php" method="post" class="info_form" id="info_form">
+
+						
+						<input type="text" id="cname" name="cname" class="info_input" placeholder="Name*" required="required">
+						<input type="text" id="cphone" name="cphone" class="info_input" placeholder="Phone No*"  maxlength="11"required="required">
+						<input type="text" id="cemail" name="cemail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="info_input" placeholder="Email*" required="required">
+						<input type="text" id="ccity" name="ccity" class="info_input" value="Chitral"  placeholder="City*" required="required">
+						
+						<select name="chotel" id="chotel" class="info_form_dep info_input info_select">
+							<option>Select Hotel </option>
+							<option value="None">None </option>
+							<option value="Ayun Fort Inn">Ayun Fort Inn</option>
+							<option value="Chitral Inn">Chitral Inn</option>
+							<option value="Gahirat Castlen">Gahirat Castlen</option>
+							<option value="Hindukush Heights">Hindukush Heights</option>
+							<option value="Kalash Continental Hotel & Resort">Kalash Continental Hotel & Resort</option>
+							<option value="Roomy Hindukush Sarai Chitral">Roomy Hindukush Sarai Chitral</option>
+							
+
+						</select>
+
+
+
+						
+
+						<select name="cdays" id="cdays" class="info_form_dep info_input info_select">
+							<option>How many Days? </option>
+							
+							<option  value="1">1 Day </option>
+							<option  value="2">2 Days</option>
+							<option  value="3">3 Days </option>
+							<option  value="4">4 Days </option>
+							<option  value="5">5 Days </option>
+							<option  value="6">6 Days </option>
+							<option  value="7">7 Days </option>
+						</select>
+
+
+
+						<div class="info_form_title" style="font-size: 16px;">Select Restuarant</div><br>
+
+
+						<div class="checkbox-inline">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="crestaurant[]" value="Chitral Guest House Zowalo Restaurant"> Chitral Guest House Zowalo Restaurant</label>
+						  </div>
+						  <div class="checkbox-inline">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="crestaurant[]" value="Fokkar Friendship Restaurant Chitral"> Fokkar Friendship Restaurant Chitral</label>
+						  </div>
+						<div class="checkbox-inline">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="crestaurant[]" value="Gumbas Cafe"> Gumbas Cafe</label>
+						  </div>
+						  <div class="checkbox-inline">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="crestaurant[]" value="Jans Food Corner"> Jans Food Corner</label>
+						  </div>
+                          <div class="checkbox-inline">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="crestaurant[]" value="PTDC Motel Bamboret"> PTDC Motel Bamboret</label>
+						  </div>
+						
+						 
+
+
+						 
+
+						 
+						
+						  
+						  
+
+						  <br>
+
+
+
+						  <div class="info_form_title" style="font-size: 16px;" id="carea" name="carea">Select Areas</div><br>
+
+						  <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value=""> Bumbruet</label>
+						  </div>
+						  <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="Chitral Fort"> Chitral Fort</label>
+						  </div>
+						  <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="Chitral Gol National Park"> Chitral Gol National Park</label>
+						  </div>
+						  
+						<div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="Chitral Museum"> Chitral Museum</label>
+						  </div>
+						 
+						  <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="Chitral Polo Ground"> Chitral Polo Ground</label>
+						  </div>
+						  <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="Golain Jungle"> Golain Jungle</label>
+						  </div>
+						 
+						  <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="Kalasha Museum"> Kalasha Museum</label>
+						  </div>
+
+                          <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="Damik Jinjerate Drosh Lower Chitral"> Damik Jinjerate Drosh Lower Chitral</label>
+						  </div>
+
+                          <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="Mastuj Chitral"> Mastuj Chitral</label>
+						  </div>
+
+
+                          <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="QaQlash Meadows"> QaQlash Meadows</label>
+						  </div>
+
+                          <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="Shahi Masjid Chitral"> Shahi Masjid Chitral</label>
+						  </div>
+						  
+						  <br><br>
+
+
+
+						 
+
+						
+						<button class="info_form_button">Customize</button>
+						<br><br>
+						
+					</form>
+				</div>
+			</div>
+
+			
+			
+		</div>
+	</div>
+</div>
+
+<br><br><br>
+	<!-- Services -->
+
+	<div class="services" style="background-color: rgb(197, 249, 253);">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">Our Services</div>
+					<div class="section_subtitle">to choose from</div>
+				</div>
+			</div>
+			<div class="row icon_boxes_row">
+				
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/Area.png" alt=""></div>
+							<div class="icon_box_title">Tour Spots</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;">Pakistan is blessed with beautiful tourists as well as historical and religious sites where tourists from abroad visit in large numbers. We provide multiple tour spots to explore and enjoy.</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/Hotel.png" alt=""></div>
+							<div class="icon_box_title">Hotels</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;">Tourists can book room(s) in hotel to stay. List of hotels is provided to give an idea of available hotels in the particular area.</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/Restuarant.png" alt=""></div>
+							<div class="icon_box_title">Restaurants</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;"> Tourists will find best resturants of particular place on our website and they can select restaurants where they can enjoy different cuisine.</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/Tra.png" alt=""></div>
+							<div class="icon_box_title">Travelling Medium</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;">Tourists can select any travel medium to travel. We offer car, jeep, train, bus and aeroplane as travel mediums. Users can select any of them according to their budget and desires.</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/Hospital.png" alt=""></div>
+							<div class="icon_box_title">Hospital</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;">A list of hospitals is provided which will help tourists in case of any emergency. Users can immediately visit teh nearby hospitals.</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/packages.png" alt=""></div>
+							<div class="icon_box_title">Packages</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;">Various packages are offered that facilitates tourists to explore the Pakistan.Packages may vary in prices.</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="button services_button ml-auto mr-auto"><a href="#"><span>read more</span><span>read more</span></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+    
+	<!-- FAQ & News -->
+
+	<div class="stuff"  style="background-color: rgb(249, 251, 253);">
+		<div class="container">
+			<div class="row">
+
+				<!-- FAQ -->
+				<div class="col-lg-7">
+					<div class="faq">
+						<div class="faq_title">Faq & Stuff</div>
+						<div class="faq_subtitle">read all about it</div>
+						<div class="elements_accordions">
+							<div class="accordions">
+
+								<div class="accordion_container">
+									<div class="accordion d-flex flex-row align-items-center active"><div>What is Tourado?</div></div>
+									<div class="accordion_panel">
+										<div>
+											<p>Tourado is a great Tour Planning website that helps tourists plan their trips according to their desires, budget and preferences.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion_container">
+									<div class="accordion d-flex flex-row align-items-center"><div>Can I customize my tour?</div></div>
+									<div class="accordion_panel">
+										<div>
+											<p>Yes, you can surely customize your tour plan. Also you have two other ways available to plan your tour.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion_container">
+									<div class="accordion d-flex flex-row align-items-center"><div>What are the other two ways to plan a tour using Tourado?</div></div>
+									<div class="accordion_panel">
+										<div>
+											<p>You can either get recommendations according to your interest and budget or select a ready-made package from the available packages.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion_container">
+									<div class="accordion d-flex flex-row align-items-center"><div>How many traveling mediums are available to opt for?</div></div>
+									<div class="accordion_panel">
+										<div>
+											<p>You can select any traveling medium out of the five facilitated by Tourado. These traveling mediums include: Bus, Car, Jeep, Train and Aeroplane.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion_container">
+									<div class="accordion d-flex flex-row align-items-center"><div>How can I book a room for myself?</div></div>
+									<div class="accordion_panel">
+										<div>
+											<p>You can book room(s) in hotel, take a room in guest-house on rent, or rent a room available in any house being offered by the owner of the house.</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Latest News -->
+				<div class="col-lg-5">
+					<div class="news">
+						<div class="news_title">Latest News</div>
+						<div class="news_subtitle">read all about it</div>
+						<div class="news_container">
+
+								<!-- Latest News Post -->
+								<div class="latest d-flex flex-row align-items-start justify-content-start">
+									<div><div class="latest_image"><img src="images/3.jpg" alt=""></div></div>
+									<div class="latest_content">
+										<div class="latest_title"><a href="news.html">Snow, Snow Everywhere, Murree, Swat, Skardu, Naran Kaghan</a></div>
+										<div class="latest_info">
+											<ul class="d-flex flex-row align-items-start justify-content-start">
+												<li><a href="#">by Rooma Shahid</a></li>
+												<li><a href="#">Jan 14, 2022</a></li>
+											</ul>
+										</div>
+										<div class="latest_comments"><a href="#">5 Comments</a></div>
+									</div>
+								</div>
+	
+								<!-- Latest News Post -->
+								<div class="latest d-flex flex-row align-items-start justify-content-start">
+									<div><div class="latest_image"><img src="images/skardu.jpg" style="height: 70px;" alt=""></div></div>
+									<div class="latest_content">
+										<div class="latest_title"><a href="news.html">Best Places To Visit In Skardu During Autumn</a></div>
+										<div class="latest_info">
+											<ul class="d-flex flex-row align-items-start justify-content-start">
+												<li><a href="#">by Kaif Jamal</a></li>
+												<li><a href="#">Jan 26, 2022</a></li>
+											</ul>
+										</div>
+										<div class="latest_comments"><a href="#">2 Comments</a></div>
+									</div>
+								</div>
+	
+								<!-- Latest News Post -->
+								<div class="latest d-flex flex-row align-items-start justify-content-start">
+									<div><div class="latest_image"><img src="images/Kalam.jpg" style="height: 70px;" alt=""></div></div>
+									<div class="latest_content">
+										<div class="latest_title"><a href="news.html">Akcent Embracing The Beauty Of Hunza and Promoting Tourism </a></div>
+										<div class="latest_info">
+											<ul class="d-flex flex-row align-items-start justify-content-start">
+												<li><a href="#">by Areesha Afzal</a></li>
+												<li><a href="#">Feb 11, 2022</a></li>
+											</ul>
+										</div>
+										<div class="latest_comments"><a href="#">4 Comments</a></div>
+									</div>
+								</div>
+	
+								<!-- Latest News Post -->
+								<div class="latest d-flex flex-row align-items-start justify-content-start">
+									<div><div class="latest_image"><img src="images/2.jpg" alt=""></div></div>
+									<div class="latest_content">
+										<div class="latest_title"><a href="news.html">20 Places in Northern Pakistan 2021-22</a></div>
+										<div class="latest_info">
+											<ul class="d-flex flex-row align-items-start justify-content-start">
+												<li><a href="#">by Ali Ahmad</a></li>
+												<li><a href="#">Feb 25, 2022</a></li>
+											</ul>
+										</div>
+										<div class="latest_comments"><a href="#">3 Comments</a></div>
+									</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/23.jpg" data-speed="0.8"></div>
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+
+					<!-- Footer About -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_about">
+							<div class="logo">
+								<a href="#"><img src="images/map2.png" style="width: 60px; height: 60px; margin-bottom: 10px; " alt=""> tourado</a>	
+							</div>
+							<div class="footer_about_text" style="text-align: justify; text-justify:inter-cluster;">Tourado is a great Tour Planning website that helps tourists plan their trips according to their desires, budget and preferences.</div>
+							<div class="footer_social">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="https://dribbble.com/"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.behance.net/"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+							<div class="copyright" style="text-align: justify; text-justify:inter-cluster;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. Designed by Laraib Gul, Mehreen Qaiser and Irsa Nadeem.</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</div>
+<!-- | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib -->
+						</div>
+					</div>
+					
+					
+					<!-- Footer Contact -->
+					<div class="col-lg-5 footer_col">
+						<div class="footer_contact">
+							<div class="footer_contact_title">Quick Contact</div>
+							<div class="footer_contact_form_container">
+								<form action="#" class="footer_contact_form" id="footer_contact_form">
+									<div class="d-flex flex-xl-row flex-column align-items-center justify-content-between">
+										<input type="text" class="footer_contact_input" placeholder="Name" required="required">
+										<input type="email" class="footer_contact_input" placeholder="E-mail" required="required">
+									</div>
+									<textarea class="footer_contact_input footer_contact_textarea" placeholder="Message" required="required"></textarea>
+									<button class="footer_contact_button">send message</button>
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Hours -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_hours">
+							<div class="footer_hours_title">Office Opening Hours</div>
+							<ul class="hours_list">
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Monday – Thursday</div>
+									<div class="ml-auto">8.00 – 19.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Friday</div>
+									<div class="ml-auto">8.00 - 18.30</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Saturday</div>
+									<div class="ml-auto">9.30 – 17.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Sunday</div>
+									<div class="ml-auto">9.30 – 15.00</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
+							<nav class="footer_nav">
+								<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+									<li class="active"><a href="index.php">Home</a></li>
+									<li><a href="AboutUs.html">About Us</a></li>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="news.html">News</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+							
+							<div class="footer_phone ml-lg-auto">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<span>+92 321 1256778</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

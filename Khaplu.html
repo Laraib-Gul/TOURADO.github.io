@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Khaplu</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Health medical template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/Dropdown.css">
+<style>
+
+
+	.flip-card {
+	  background-color: transparent;
+	  width: 265px;
+	  height: 265px;
+	  perspective: 1000px;
+	}
+	
+	.flip-card-inner {
+	  position: relative;
+	  
+	  width: 100%;
+	  height: 100%;
+	  text-align: center;
+	  transition: transform 0.6s;
+	  transform-style: preserve-3d;
+	  box-shadow: 0 4px 8px 0 rgba(216, 214, 214, 0.2);
+	}
+	
+	.flip-card:hover .flip-card-inner {
+	  transform: rotateY(180deg);
+	}
+	
+	.flip-card-front, .flip-card-back {
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  -webkit-backface-visibility: hidden;
+	  backface-visibility: hidden;
+	}
+	
+	.flip-card-front {
+	  background-color: #bbb;
+	  color: black;
+	}
+	
+	.flip-card-back {
+	  background-color:
+	  #f4f6f8;
+	
+	  color: rgb(12, 12, 12);
+	  transform: rotateY(180deg);
+	}
+	</style>
+</head>
+<body style="font-family: 'Montserrat', sans-serif !important;">
+
+<div class="super_container">
+
+	<!-- Menu -->
+
+	<div class="menu trans_500">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="menu_close_container"><div class="menu_close"></div></div>
+			<form action="#" class="menu_search_form">
+				<input type="text" class="menu_search_input" placeholder="Search" required="required">
+				<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+			</form>
+			<ul>
+				<li class="menu_item"><a href="index.php">Home</a></li>
+				<li class="menu_item"><a href="AboutUs.html">About us</a></li>
+				<li class="menu_item"><a href="#">Services</a></li>
+				<li class="menu_item"><a href="news.html">News</a></li>
+				<li class="menu_item"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="menu_social">
+			<ul>
+				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="background_image" style="background-image:url(cities/Khaplu/a/2.jpg)"></div>
+
+		<!-- Header -->
+
+		<header class="header" id="header">
+			<div>
+				<div class="header_top">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
+									<div class="logo">
+										<a href="#"><img src="images/map2.png" style="width: 60px; height: 60px; margin-bottom: 10px; " alt=""> tourado</a>	
+									</div>
+									<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
+										
+										<div class="header_top_phone">
+											<i class="fa fa-phone" aria-hidden="true"></i>
+											<span>+92 321 1256778</span>
+										</div>
+									</div>
+									<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header_nav" id="header_nav_pin">
+					<div class="header_nav_inner">
+						<div class="header_nav_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+											<nav class="main_nav">
+												<ul class="d-flex flex-row align-items-center justify-content-start">
+													<li><a href="index.php">Home</a></li>
+													<li><a href="customize.html">Customize Tour</a></li>
+													<li class="active"><a href="Khaplu.html">Khaplu</a></li>
+													<li><a href="Passu.html">Pasu</a></li>
+													<li ><a href="Shigar.html">Shigar</a></li>
+													<li><a href="Skardu.html">Skardu</a></li>
+													<li><a href="Domel.html">Domel</a></li>
+													<li><a href="Gilgit.html">Gilgit</a></li>
+													<li><a href="Hunza.html">Hunza</a></li>
+                                                    <li ><a href="Karimabad.html">Karimabad</a></li>
+												</ul>
+											</nav>
+
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</header>
+
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title" style="color: white;"></div>
+							<div class="home_text"></div>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br><br><br><br><br>
+
+							<div class="button info_button"><a href="KhapluGallery.html"><span>See more</span><span>See more</span></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+
+	<!-- CTA -->
+
+	<div class="cta">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/gray.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="cta_container d-flex flex-xl-row flex-column align-items-xl-start align-items-center justify-content-xl-start justify-content-center">
+						<div class="cta_content text-xl-left text-center">
+							<div class="cta_title" style="color: black;">Khaplu </div>
+							<div class="cta_subtitle" style="color: black;  text-align: justify; text-justify:inter-word;">Khaplu (Urdu and Balti:خپلو), also spelt Khapalu, is a city that serves as the administrative capital of the Ghanche District of Gilgit-Baltistan, in northern Pakistan. Lying 103 km (64 mi) east of the city of Skardu, it was the second-largest kingdom in old Baltistan of the Yabgo dynasty. It guarded the trade route to Ladakh along the Shyok River east of its confluence with the Indus.
+
+                                Khaplu is a base for trekking into the Hushe valley which leads to the high peaks of Masherbrum, K6, K7, and Chogolisa. Khaplu has a 700-year-old mosque, Chaqchan, founded by Ameer Kabeer Syed Ali Hamadani (RA). Other tourist sites include Ehlie broq, Hanjor, ThoqsiKhar, Kaldaq, and Shyok River views. Khaplu has been called many names like "Shyok Valley," "Ghanche" and "Little Tibet." In Khaplu there are many historical places like the beautiful Chaqchan Mosque (700 years old founded by Mir Sayyid Ali Hamadani, the first Islam preacher in this area). Raja Palace is a beautiful building and the last and best Tibetan-style palace in Pakistan. Khaplu Khanqah is attributed to Mir Mukhtar Akhyar and was built in 1712 AD/1124 AH.</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+    <!-- Areas -->
+
+	<div class="departments">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">Top Areas of Khapalu</div>
+					<div class="section_subtitle">Best Areas to visit in Khaplu</div>
+				</div>
+			</div>
+			<div class="row dept_row">
+				<div class="col">
+					<div class="dept_slider_container_outer">
+						<div class="dept_slider_container">
+
+							<!-- Slider -->
+							<div class="owl-carousel owl-theme dept_slider">
+								
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/a/ChaqchanMosquen.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Chaqchan Mosque</b> <br>
+											<b>Address:</b> Chaqchan Rd, Khaplu, Gilgit-Baltistan<br>
+											<b>Phone: </b>0331 5442312<br>
+											<b>Date established: </b>1370AD<br>
+											<b>Architectural style: </b>mughal architecture<br>
+											<b>Capacity: </b>500 (including adjoining verandah)											
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">Chaqchan Mosque</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/a/Khanqah-e-Mualla Sofia Noorbakhshia n.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Khanqah-e-Mualla Sofia Noorbakhshia</b> <br>
+											<b>Address:</b> Khaplu<br>
+											<b>Construction cost: </b>20 million<br>
+											<b>Function: </b> Khanqah<br>
+											<b>Architectural style: </b>mughal architecture<br>
+											<b>Capacity: </b>3000 within the adjoining grounds areas											
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">Khanqah-e-Mualla</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>
+
+								
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/a/KhapluWaterfallsn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Khaplu Waterfalls</b> <br>
+											<b>Address:</b>5897+PW3, Khaplu<br>
+											<b>Phone: </b>0313 8484754<br>
+																					
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">Khaplu Waterfalls</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>             
+
+
+                               
+
+
+                               
+
+                               
+
+                                
+
+
+
+
+
+                               
+
+
+        
+
+							</div>
+							
+						</div>
+
+						<!-- Dept Slider Nav -->
+						<div class="dept_slider_nav"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<!-- Hotels -->
+
+	<div class="departments">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">Top Hotels of Khaplu</div>
+					<div class="section_subtitle">Hospitality Offered To Every Laborer.</div>
+				</div>
+			</div>
+			<div class="row dept_row">
+				<div class="col">
+					<div class="dept_slider_container_outer">
+						<div class="dept_slider_container">
+
+							<!-- Slider -->
+							<div class="owl-carousel owl-theme dept_slider">
+								
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/a/SerenaKhapluPalacen.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Serena Khaplu Palace</b> <br>
+											<b>Address:</b> Serena Khaplu Palace, Chaqchan Rd, Sargiab،, Khaplu, Khapalu, 16800<br>
+											<b>Phone: </b>0346 8101033<br>
+											<b>Per Night Stay: </b>13,000/-pkr<br>
+																					
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">Serena Khaplu Palace</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/h/FelixGuestHousen.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Felix Guest House</b> <br>
+											<b>Address:</b> Pakistan، Machlu, Gilgit-Baltistan<br>
+											<b>Phone: </b> 0355 4175675<br>
+											<b>Per Night Stay: </b>15,000/-pkr<br>
+																					
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">Felix Guest House</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/h/GreenLandGuestHousen.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Green Land Guest House Khaplu</b> <br>
+											<b>Address:</b> Shahamdan road, Khaplu<br>
+											<b>Phone: </b> 0348 5246875<br>
+											<b>Per Night Stay: </b>25,000/-pkr<br>
+																					
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">Green Land House</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/h/HighCliffGuestHousen.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>High Cliff Guest House, Khaplu</b> <br>
+											<b>Address:</b> VIP colony, Khaplu, Gilgit-Baltistan 16800<br>
+											<b>Phone: </b> 0344 0713331<br>
+											<b>Per Night Stay: </b>6440/-pkr<br>
+																					
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">High Cliff House</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>
+
+
+                               
+
+
+                               
+
+							
+
+                               
+
+
+                               
+
+							</div>
+							
+						</div>
+
+						<!-- Dept Slider Nav -->
+						<div class="dept_slider_nav"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+      <!-- Restuarants -->
+
+	<div class="departments">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">Top Restuarants of Khaplu</div>
+					<div class="section_subtitle">Best Restaurants to enjoy food</div>
+				</div>
+			</div>
+			<div class="row dept_row">
+				<div class="col">
+					<div class="dept_slider_container_outer">
+						<div class="dept_slider_container">
+
+							<!-- Slider -->
+							<div class="owl-carousel owl-theme dept_slider">
+								
+								
+
+								
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/r/BISMILLAHrestauraantn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Bismillah Restaurant
+											</b> <br>
+											<b>Service Options:</b> Dine-in · Takeaway<br>
+											<b>Address:</b>7V47+45J, Gol<br>
+											
+																					
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">Bismillah Restaurant
+										</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/r/HajiMushtaqHussainFishFarmAndrestuarantn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Haji Mushtaq Hussain Fish Farm and Restaurant
+											</b> <br>
+											<b>Service Options:</b> Dine-in · Takeaway<br>
+											<b>Address:</b>Kharkoo Road<br>
+											<b>Phone: </b>0355 5112094
+																					
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">Haji Mushtaq 
+										</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>
+
+
+                                <!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/r/SailingBridgen.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Saling bridge
+											</b> <br>
+											
+											<b>Address:</b>Main siacheen road, Khaplu, Gilgit-Baltistan 16800<br>
+											<b>Phone: </b> (058164) 50108
+																					
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">Saling bridge
+										</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>
+
+
+                                 <!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/r/GhancheFoodStreetKhaplun.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Ghanche Food Street khaplu
+											</b> <br>
+											
+											<b>Address:</b>near Ghanche hotel Khaplu, Khaplu, 16800<br>
+											<b>Phone: </b> 0312 2127152
+																					
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">Ghanche Food Street 
+										</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>
+
+
+                                 <!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img src="cities/Khaplu/r/Restaurant_Pakizahn.jpg" alt="Avatar" style="width:265px;height:265px;">
+                                          </div>
+                                          <div class="flip-card-back" ><br>                                           
+                                            <p style="text-align: justify; margin-left: 5%; margin-right: 5%; margin-top: 2%; margin-bottom: 2%; color: black;"><b>Restaurant Pakizah
+											</b> <br>
+											<b>Service Options:</b> Dine-in · Takeaway<br>
+											<b>Address:</b>587V+C88, Khaplu, Gilgit-Baltistan<br>
+											
+																					
+											</p>                                            
+                                          </div>
+                                        </div>
+                                      </div>
+									<div class="dept_content">
+										<div class="dept_title">Restaurant Pakizah
+										</div>
+										<div style="margin: 2px 0;">												
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+											<i class="fa fa-star text-warning" ></i>
+										  </div>										
+									</div>
+								</div>
+
+
+                                
+
+                              
+
+
+
+                               
+
+
+                              
+
+							</div>
+							
+						</div>
+
+						<!-- Dept Slider Nav -->
+						<div class="dept_slider_nav"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	   <!-- Hospitals -->
+
+	   <div class="departments">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">Hospitals of Khaplu</div>
+					<div class="section_subtitle">Visit in case of Emergency</div>
+				</div>
+			</div>
+			<div class="row dept_row">
+				<div class="col">
+					<div class="dept_slider_container_outer">
+						<div class="dept_slider_container">
+
+							<!-- Slider -->
+							<div class="owl-carousel owl-theme dept_slider">
+								
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="cities/Khaplu/hospitals/Basic_Health_Unit_Machulon.png" alt="hello"></div>
+									<div class="dept_content">
+										<div class="dept_title">Basic Health Unit</div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="cities/Khaplu/hospitals/DHQ_Hospital_Khaplun.jpg" alt=""></div>
+									<div class="dept_content">
+										<div class="dept_title">DHQ Hospital Khaplu</div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="cities/Khaplu/hospitals/Hospital_Barahn.png" alt=""></div>
+									<div class="dept_content">
+										<div class="dept_title">Hospital Barah
+                                        </div>
+										
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="cities/Khaplu/hospitals/Lahar_Hospitaln.png" alt=""></div>
+									<div class="dept_content">
+										<div class="dept_title">Lahar Hospital</div> 
+										
+									</div>
+								</div>
+
+
+                               
+
+                
+                               
+
+
+                              
+
+							</div>
+							
+						</div>
+
+						<!-- Dept Slider Nav -->
+						<div class="dept_slider_nav"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- Contact -->
+
+<div class="contact">
+	<div class="container">
+		<div class="row">
+
+		
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<!-- Customize Trip -->
+			<div class="col-lg-4 contact_col" >
+				<div class="info_form_container" style="width: 240%;">
+					<div class="info_form_title" style="text-align: center;">Customize Trip</div><br><br>
+					<div class="info_form_title" style="font-size: 16px;">Fill Details</div>
+					<form action="lhrcustomize.php" method="post" class="info_form" id="info_form">
+
+						
+						<input type="text" id="cname" name="cname" class="info_input" placeholder="Name*" required="required">
+						<input type="text" id="cphone" name="cphone" class="info_input" placeholder="Phone No*"  maxlength="11"required="required">
+						<input type="text" id="cemail" name="cemail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="info_input" placeholder="Email*" required="required">
+						<input type="text" id="ccity" name="ccity" class="info_input" value="Khaplu"  placeholder="City*" required="required">
+
+
+						<select name="chotel" id="chotel"" class="info_form_dep info_input info_select">
+							<option>Select Hotel </option>
+							<option value="None">None </option>
+							<option value="Serena Khaplu Palace">Serena Khaplu Palace</option>
+							<option value="Felix Guest House">Felix Guest House</option>
+							<option value="Green Land Guest House">Green Land Guest House</option>
+							<option value="High Cliff Guest House">High Cliff Guest House</option>
+							
+							
+							
+
+						</select>
+
+
+
+						<select name="cdays" id="cdays" class="info_form_dep info_input info_select">
+							<option>How many Days? </option>
+							
+							<option  value="1">1 Day </option>
+							<option  value="2">2 Days</option>
+							<option  value="3">3 Days </option>
+							<option  value="4">4 Days </option>
+							<option  value="5">5 Days </option>
+							<option  value="6">6 Days </option>
+							<option  value="7">7 Days </option>
+						</select>
+
+
+
+						<div class="info_form_title" style="font-size: 16px;">Select Restuarant</div><br>
+
+
+						<div class="checkbox-inline">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="crestaurant[]" value="BISMILLAH Rsetaurant"> BISMILLAH Rsetaurant</label>
+						  </div>
+						  <div class="checkbox-inline">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="crestaurant[]" value="Ghanche Food Street Khaplu"> Ghanche Food Street Khaplu</label>
+						  </div>
+						<div class="checkbox-inline">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="crestaurant[]" value="Haji Mushtaq Fish Farm & Restaurant"> Haji Mushtaq Fish Farm & Restaurant</label>
+						  </div>
+						  <div class="checkbox-inline">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="crestaurant[]" value="Restaurant Pakizah"> Restaurant Pakizah</label>
+						  </div>
+                          <div class="checkbox-inline">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="crestaurant[]" value="Sailing Bridge"> Sailing Bridge</label>
+						  </div>
+                          
+						 
+
+
+						 
+
+						 
+						
+						  
+						  
+
+						  <br>
+
+
+
+						  <div class="info_form_title" style="font-size: 16px;" id="carea" name="carea">Select Areas</div><br>
+
+						  <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="Chaqchan Mosque"> Chaqchan Mosque</label>
+						  </div>
+						  <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox"name="carea[]" value="Khanqah-e-Mualla Sofia Noorbakhshia"> Khanqah-e-Mualla Sofia Noorbakhshia</label>
+						  </div>
+						  <div class="checkbox">
+							<label style="color: rgb(65, 63, 63);"><input type="checkbox" name="carea[]" value="Khaplu Waterfalls"> Khaplu Waterfalls</label>
+						  </div>
+						  
+						
+						 
+                         
+						  
+						  <br><br>
+
+
+
+						 
+
+						
+						<button class="info_form_button">Customize</button>
+						<br><br>
+						<button type="submit" class=" info_form_button" data-toggle="modal"
+						data-target="#myModal">Choose Travelling Medium</button> <br>
+						<br><br><br>
+					</form>
+				</div>
+			</div>
+
+			
+			
+		</div>
+	</div>
+</div>
+<!-- The Modal -->
+<div class="modal fade " id="myModal" style="margin-top: 100px;">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+
+			<!-- Modal Header -->
+			<div class="modal-header">
+				<h4 class="modal-title" style="color: black; font-size: 20px; margin-left: 140px;">
+					Travelling Medium</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+
+			<!-- Modal body -->
+			<div class="modal-body">
+				<button class="info_form_button"><a href="Car.html"
+						style="color: white; font-size: 16px;">Car</a></button>
+				<button class="info_form_button"><a href="Bus.html"
+						style="color: white; font-size: 16px;">Bus</a></button>
+				<button class="info_form_button"><a href="Jeep.html"
+						style="color: white; font-size: 16px;">Jeep</a></button>
+				
+				
+				
+
+			</div>
+
+		</div>
+	</div>
+</div>
+<br><br><br>
+	<!-- Services -->
+
+	<div class="services" style="background-color: rgb(197, 249, 253);">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">Our Services</div>
+					<div class="section_subtitle">to choose from</div>
+				</div>
+			</div>
+			<div class="row icon_boxes_row">
+				
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/Area.png" alt=""></div>
+							<div class="icon_box_title">Tour Spots</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;">Pakistan is blessed with beautiful tourists as well as historical and religious sites where tourists from abroad visit in large numbers. We provide multiple tour spots to explore and enjoy.</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/Hotel.png" alt=""></div>
+							<div class="icon_box_title">Hotels</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;">Tourists can book room(s) in hotel to stay. List of hotels is provided to give an idea of available hotels in the particular area.</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/Restuarant.png" alt=""></div>
+							<div class="icon_box_title">Restaurants</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;"> Tourists will find best resturants of particular place on our website and they can select restaurants where they can enjoy different cuisine.</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/Tra.png" alt=""></div>
+							<div class="icon_box_title">Travelling Medium</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;">Tourists can select any travel medium to travel. We offer car, jeep, train, bus and aeroplane as travel mediums. Users can select any of them according to their budget and desires.</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/Hospital.png" alt=""></div>
+							<div class="icon_box_title">Hospital</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;">A list of hospitals is provided which will help tourists in case of any emergency. Users can immediately visit teh nearby hospitals.</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-xl-4 col-lg-6">
+					<div class="icon_box">
+						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
+							<div class="icon_box_icon"><img src="images/packages.png" alt=""></div>
+							<div class="icon_box_title">Packages</div>
+						</div>
+						<div class="icon_box_text" style="text-align: justify; text-justify:inter-word;">Various packages are offered that facilitates tourists to explore the Pakistan.Packages may vary in prices.</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="button services_button ml-auto mr-auto"><a href="#"><span>read more</span><span>read more</span></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+    
+	<!-- FAQ & News -->
+
+	<div class="stuff"  style="background-color: rgb(249, 251, 253);">
+		<div class="container">
+			<div class="row">
+
+				<!-- FAQ -->
+				<div class="col-lg-7">
+					<div class="faq">
+						<div class="faq_title">Faq & Stuff</div>
+						<div class="faq_subtitle">read all about it</div>
+						<div class="elements_accordions">
+							<div class="accordions">
+
+								<div class="accordion_container">
+									<div class="accordion d-flex flex-row align-items-center active"><div>What is Tourado?</div></div>
+									<div class="accordion_panel">
+										<div>
+											<p>Tourado is a great Tour Planning website that helps tourists plan their trips according to their desires, budget and preferences.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion_container">
+									<div class="accordion d-flex flex-row align-items-center"><div>Can I customize my tour?</div></div>
+									<div class="accordion_panel">
+										<div>
+											<p>Yes, you can surely customize your tour plan. Also you have two other ways available to plan your tour.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion_container">
+									<div class="accordion d-flex flex-row align-items-center"><div>What are the other two ways to plan a tour using Tourado?</div></div>
+									<div class="accordion_panel">
+										<div>
+											<p>You can either get recommendations according to your interest and budget or select a ready-made package from the available packages.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion_container">
+									<div class="accordion d-flex flex-row align-items-center"><div>How many traveling mediums are available to opt for?</div></div>
+									<div class="accordion_panel">
+										<div>
+											<p>You can select any traveling medium out of the five facilitated by Tourado. These traveling mediums include: Bus, Car, Jeep, Train and Aeroplane.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion_container">
+									<div class="accordion d-flex flex-row align-items-center"><div>How can I book a room for myself?</div></div>
+									<div class="accordion_panel">
+										<div>
+											<p>You can book room(s) in hotel, take a room in guest-house on rent, or rent a room available in any house being offered by the owner of the house.</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Latest News -->
+				<div class="col-lg-5">
+					<div class="news">
+						<div class="news_title">Latest News</div>
+						<div class="news_subtitle">read all about it</div>
+						<div class="news_container">
+
+								<!-- Latest News Post -->
+								<div class="latest d-flex flex-row align-items-start justify-content-start">
+									<div><div class="latest_image"><img src="images/3.jpg" alt=""></div></div>
+									<div class="latest_content">
+										<div class="latest_title"><a href="news.html">Snow, Snow Everywhere, Murree, Swat, Skardu, Naran Kaghan</a></div>
+										<div class="latest_info">
+											<ul class="d-flex flex-row align-items-start justify-content-start">
+												<li><a href="#">by Rooma Shahid</a></li>
+												<li><a href="#">Jan 14, 2022</a></li>
+											</ul>
+										</div>
+										<div class="latest_comments"><a href="#">5 Comments</a></div>
+									</div>
+								</div>
+	
+								<!-- Latest News Post -->
+								<div class="latest d-flex flex-row align-items-start justify-content-start">
+									<div><div class="latest_image"><img src="images/skardu.jpg" style="height: 70px;" alt=""></div></div>
+									<div class="latest_content">
+										<div class="latest_title"><a href="news.html">Best Places To Visit In Skardu During Autumn</a></div>
+										<div class="latest_info">
+											<ul class="d-flex flex-row align-items-start justify-content-start">
+												<li><a href="#">by Kaif Jamal</a></li>
+												<li><a href="#">Jan 26, 2022</a></li>
+											</ul>
+										</div>
+										<div class="latest_comments"><a href="#">2 Comments</a></div>
+									</div>
+								</div>
+	
+								<!-- Latest News Post -->
+								<div class="latest d-flex flex-row align-items-start justify-content-start">
+									<div><div class="latest_image"><img src="images/Kalam.jpg" style="height: 70px;" alt=""></div></div>
+									<div class="latest_content">
+										<div class="latest_title"><a href="news.html">Akcent Embracing The Beauty Of Hunza and Promoting Tourism </a></div>
+										<div class="latest_info">
+											<ul class="d-flex flex-row align-items-start justify-content-start">
+												<li><a href="#">by Areesha Afzal</a></li>
+												<li><a href="#">Feb 11, 2022</a></li>
+											</ul>
+										</div>
+										<div class="latest_comments"><a href="#">4 Comments</a></div>
+									</div>
+								</div>
+	
+								<!-- Latest News Post -->
+								<div class="latest d-flex flex-row align-items-start justify-content-start">
+									<div><div class="latest_image"><img src="images/2.jpg" alt=""></div></div>
+									<div class="latest_content">
+										<div class="latest_title"><a href="news.html">20 Places in Northern Pakistan 2021-22</a></div>
+										<div class="latest_info">
+											<ul class="d-flex flex-row align-items-start justify-content-start">
+												<li><a href="#">by Ali Ahmad</a></li>
+												<li><a href="#">Feb 25, 2022</a></li>
+											</ul>
+										</div>
+										<div class="latest_comments"><a href="#">3 Comments</a></div>
+									</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/23.jpg" data-speed="0.8"></div>
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+
+					<!-- Footer About -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_about">
+							<div class="logo">
+								<a href="#"><img src="images/map2.png" style="width: 60px; height: 60px; margin-bottom: 10px; " alt=""> tourado</a>	
+							</div>
+							<div class="footer_about_text" style="text-align: justify; text-justify:inter-cluster;">Tourado is a great Tour Planning website that helps tourists plan their trips according to their desires, budget and preferences.</div>
+							<div class="footer_social">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="https://dribbble.com/"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.behance.net/"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+							<div class="copyright" style="text-align: justify; text-justify:inter-cluster;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. Designed by Laraib Gul, Mehreen Qaiser and Irsa Nadeem.</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</div>
+<!-- | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib -->
+						</div>
+					</div>
+					
+					
+					<!-- Footer Contact -->
+					<div class="col-lg-5 footer_col">
+						<div class="footer_contact">
+							<div class="footer_contact_title">Quick Contact</div>
+							<div class="footer_contact_form_container">
+								<form action="#" class="footer_contact_form" id="footer_contact_form">
+									<div class="d-flex flex-xl-row flex-column align-items-center justify-content-between">
+										<input type="text" class="footer_contact_input" placeholder="Name" required="required">
+										<input type="email" class="footer_contact_input" placeholder="E-mail" required="required">
+									</div>
+									<textarea class="footer_contact_input footer_contact_textarea" placeholder="Message" required="required"></textarea>
+									<button class="footer_contact_button">send message</button>
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Hours -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_hours">
+							<div class="footer_hours_title">Office Opening Hours</div>
+							<ul class="hours_list">
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Monday – Thursday</div>
+									<div class="ml-auto">8.00 – 19.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Friday</div>
+									<div class="ml-auto">8.00 - 18.30</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Saturday</div>
+									<div class="ml-auto">9.30 – 17.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Sunday</div>
+									<div class="ml-auto">9.30 – 15.00</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
+							<nav class="footer_nav">
+								<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+									<li class="active"><a href="index.php">Home</a></li>
+									<li><a href="AboutUs.html">About Us</a></li>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="news.html">News</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+							
+							<div class="footer_phone ml-lg-auto">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<span>+92 321 1256778</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
